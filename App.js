@@ -1,9 +1,11 @@
 const heading = React.createElement(
 "h1",
-{class: "heading"},
+{className: "heading"},
 "Hello World from React!");
 
-console.log(heading);
+// the above are the props. 
+
+console.log(heading); //this returns a js object. a react element.
         
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
