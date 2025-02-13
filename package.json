@@ -1,0 +1,31 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "Namaste React Web Series",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alihaiderkhannn/react-namaste.git"
+  },
+  "keywords": [],
+  "author": "Ali Haider Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alihaiderkhannn/react-namaste/issues"
+  },
+  "homepage": "https://github.com/alihaiderkhannn/react-namaste#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browsersList" : [
+    "last 2 versions"
+  ]
+
+}
