@@ -1,49 +1,61 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './style.css'
+import logo from './images/logo.png'
 
-/**
- * 
- * <div id="parent">
- *    <div id="child>
- *   <h1>I'm h1 tag</h1>
- *   <h2>I'm h2 tag</h2>
- *   </div>
- * <div id ="child2">
- *  <h1>I'm h1 tag</h1>
- *  <h2>I'm h2 tag</h2>
- * </div>
- * </div>
- * 
- * 
- */
 
-const parent = React.createElement(
-    "div",
-    { id: "parent" },
-    [
-        React.createElement("div", { id: "child"}, [
-        React.createElement("h1", {}, "This is Namaste React"),
-        React.createElement("h2", {}, "I'm h2 tag")
-        ]),
-        React.createElement("div", { id: "child2"}, [
-        React.createElement("h1", {}, "I'm h1 tag"),
-        React.createElement("h2", {}, "I'm h2 tag")
-        ])
-    ]
+// const nestedHeader = React.createElement('div', { class: "title" },
+//     [
+//         React.createElement('h1', {} , "This is an H1 tag"), 
+//         React.createElement('h2', {} , "This is an H2 tag"),
+//         React.createElement('h3', {} , "This is an H3 tag"),
+//     ]
+// )
+// const nestedHeaderUsingJSX = (
+//     <div className='title'>
+//         <h1>This is an h1 tag</h1>
+//         <h2>This is an h2 tag</h2>
+//         <h3>This is an h3 tag</h3>
+//     </div>
+// )
 
-);
+// const AliComponent = () => {
+//     return (
+//         <div className='alis-component'>
+//             <h1>
+//                 My name is Ali
+//             </h1>
 
-console.log(parent);
+//         </div>
+//     )
+// }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+// const HeaderComponent = () => {
+//     return (
+//         <div className='title'>
+//             <AliComponent />
+//             <h1 id='heading-1' style={{ color: 'red'}}>This is an h1 tag</h1>
+//             <h2 id='heading-2' style={{ fontSize: "50px"}}>This is an h2 tag</h2>
+//             <h3 id='heading-3' style={{ fontFamily: "sans-serif"}}>This is an h3 tag</h3>
+//         </div>
+//     )
+// }
 
-// const heading = React.createElement
-// ("h1", 
-// {className: "heading"},
-// "Hello World from React");
 
-// console.log(heading);
+// const Header = () => {
+//     return (
+//       <header className='header'>
+//         <div className='logo'>
+//             <img src={logo} alt='united logo'></img>
+//         </div>
+//         <div className='search-bar'>
+//             <input type='text' placeholder='Search...'></input>
+//         </div>
+//       </header>
 
-// const root = ReactDOM.createRoot(document.getElementById("root"));  
-// root.render(heading);
+//     )
+// }
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(<Header />);
+
