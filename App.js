@@ -21,9 +21,25 @@ const HeaderComponent = () => {
     </div>
     )
 }
-
 const BodyComponent = () => {
+    return (
+        <div className='body-container'>
+            <div className='search'>
+                Search
+            </div>
+            <div className='res-container'>
+                <RestaurantCard />
+            </div>
 
+        </div>
+    )
+}
+const RestaurantCard = () => {
+    return (
+        <div className='res-card'>
+            <h3>Meghana Foods</h3>
+        </div>
+    )
 }
 
 const AppLayout = () => {
